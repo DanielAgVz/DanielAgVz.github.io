@@ -1,0 +1,29 @@
+
+.container {
+    margin: 20px;
+  }
+  
+  .btn-nuevo,
+  .btn-editar,
+  .btn-eliminar {
+    margin: 5px;
+    padding: 8px;
+  }
+  
+  .form-genero {
+    margin-top: 20px;
+  }
+  
+  .tabla-generos {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .tabla-generos th,
+  .tabla-generos td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  

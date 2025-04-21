@@ -1,0 +1,68 @@
+.login-container {
+  background-image: url("../../assets/imagenes/fondo-re-lo.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;      /* Centra verticalmente */
+}
+
+.login-box {
+  background-color: rgba(200, 200, 200, 0.231); /* Contenedor medio transparente */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-container h2 {
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+.login-container input::placeholder {
+  color: #666;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 0.7rem;
+  border: 2px solid #54d3f0;
+  background: transparent;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #54d3f0;
+  color: white;
+}
+
+.error {
+  color: #ff4d4d;
+  margin-top: 0.5rem;
+}
+
+.registro-link {
+  color: #d9d9d9;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 1rem;
+  display: block;
+}

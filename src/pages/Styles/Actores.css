@@ -1,0 +1,23 @@
+.container {
+    margin: 20px;
+  }
+  
+  .btn-nuevo,
+  .btn-editar,
+  .btn-eliminar {
+    margin: 5px;
+    padding: 8px;
+  }
+  
+  .form-actores{ 
+    margin-top: 20px;
+  }
+  
+  .tabla-actores {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+
+

@@ -1,0 +1,81 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-nuevo {
+  background-color: #54d3f0;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btn-nuevo:hover {
+  background-color: #73e5ff;
+}
+
+.form-pais button {
+  margin-left:15px;
+  padding: 10px 20px;
+  background-color: #54d3f0;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.form-pais button:hover {
+  background-color: #73e5ff;
+}
+
+.tabla-paises {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabla-paises th, .tabla-paises td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.tabla-paises th {
+  background-color: #f2f2f2;
+}
+
+.btn-editar, .btn-eliminar {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-editar {
+  border-radius: 10px;
+  background-color: #f2ef59;
+  color: rgb(0, 0, 0);
+}
+
+.btn-editar:hover {
+  background-color: #fffc57;
+}
+
+.btn-eliminar {
+  border-radius: 10px;
+  background-color: #f44336;
+  color: rgb(0, 0, 0);
+}
+
+.btn-eliminar:hover {
+  background-color: #f65246;
+}
